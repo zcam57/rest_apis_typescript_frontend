@@ -1,4 +1,5 @@
-import { DraftProductSchema, ProductsSchema, Product, ProductSchema} from "../types"
+import { DraftProductSchema, ProductsSchema, ProductSchema} from "../types"
+import type { Product } from "../types"
 import { pipe, transform, number, minValue, string, safeParse, parse} from "valibot"
 import axios from "axios"
 import { toBoolean } from "../utils"

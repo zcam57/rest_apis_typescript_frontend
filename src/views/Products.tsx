@@ -2,7 +2,7 @@ import { Link, useLoaderData, type ActionFunctionArgs } from "react-router-dom"
 import { getProduct, updatedProductAvailability } from "../services/ProductService"
 import type { Product } from "../types"
 import ProductDetails from "../components/ProductDetails"
-import { keyof } from "valibot"
+
 
 export async function loader(){
    const products = await getProduct()
